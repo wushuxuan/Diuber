@@ -1,0 +1,44 @@
+.contentNews{ width:100%;margin:0 auto;display:flex;flex-flow:row;padding:3% 5%;background:#F8F8F8;}
+.Card{  border:1px solid #ECECEC;}
+.cardul{width:100%;}
+.cardul li{width:100%;display:flex;height:40px;line-height:40px;}
+.cardul li i{color:#33cde5;display:inline-block;width:15%;height:40px;line-height:40px;float:left;font-weight:bold;}
+.cardul li span{display:inline-block;height:40px;line-height:40px;float:left;}
+.cardul li.cardli{color:#B7C2D0;}
+.rowcol{margin-top:10px;}
+.rowcol:last-child{margin-bottom:20px;}
+
+.NewsLeft{
+  width:65%;display:inline-block;background:#fff;
+}
+.NewsRight{
+  width:33%;margin-left:2%;display:inline-block;
+}
+.NewLeftList{
+  margin:0% 4% 3%;
+}
+.NewsRightDate{ color:#aaa;padding-bottom:5px;}
+.NewsRight .NewsRightdiv{ background:#fff;margin-bottom:3%;}
+.NewsRightLi{ line-height:35px;}
+.NewsRightLi:last-child{ padding-bottom:20px;}
+
+@media screen and (max-width: 767px) {
+  .contentNews{
+    display:flex;flex-flow:column;padding:0px;
+  }
+  .NewsLeft{
+    width:100%;margin:0 auto;display:inline-block;
+  }
+  .NewsRight{
+    width:100%;margin:0 auto;display:inline-block;
+  }
+  .NewsRightdiv02{
+    margin-top:5%;
+  }
+  .priceTop{
+    width:100%;
+    padding:50px 0px;text-align:center;
+    color:#fff;margin-top:0px;
+    background:url(http://le195525.oss-cn-shanghai.aliyuncs.com/Diyou/placard-bg.jpg)
+  }
+}

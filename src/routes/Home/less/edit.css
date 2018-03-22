@@ -1,0 +1,16 @@
+
+@media screen and (min-width: 768px) {
+#content_1_0 .bg1 { background-size: cover }
+#content_1_0 .bg0 { background-size: cover }
+#content_1_0-titleBlock1 { width: 350px }
+#content_6_0-ul .content-wrapper { height: 150px }
+#nav_1_0 { position: fixed }
+#content_4_0 { height: 139vh }
+#content_8_0-tabs .content6-text { padding: 20px 0 0 0100px }
+#content_8_0-tabs .content6-text h3 { margin: 10px auto 1px auto }
+#content_8_0-tabs { top: 10vh }
+#content_8_0 { height: 120vh }
+#content_8_0-title { top: 5%; width: 96% }
+#content_8_0-content { line-height: 0.5em }
+#content_9_1 { height: 500px }
+}

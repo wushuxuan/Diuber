@@ -1,0 +1,39 @@
+.caseDiv{  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif;}
+.casebgTop{
+  background-image: url(http://le195525.oss-cn-shanghai.aliyuncs.com/Diyou/%E5%9B%BE%E7%89%87%E7%B2%BE%E7%81%B5/diyouCss3.png);
+  background-position: 0 -9834px;
+}
+
+.caseDiv{width:100%;margin-top:3%;padding-bottom:8%;}
+.caseDiv Card{ margin-top:5%;}
+.CaseCard>.ant-card-head{ background-image: linear-gradient(90deg,#1ba5ff,#20c4ff);color:#fff}
+.CaseCard>.ant-card-head h3{color:#fff;}
+
+.casediv{ height:30px;display:flex;flex-flow:row}
+.casediv>h1{  width:4px;height:30px;margin-right:10px;background:#00CBE9;display:inline-block}
+.casediv>h2{  height:30px;line-height:30px;display:inline-block}
+.casep{ padding:10px 20px 30px}
+.caseh3{ font-weight:bold;}
+.cmxbannerimg01{
+  background:url(http://le195525.oss-cn-shanghai.aliyuncs.com/Diyou/casecmx.png) no-repeat;
+  background-position: 0 -80px;background-size:265px auto;animation: myfirst 5s;
+}
+@keyframes myfirst
+{
+  0% {background-position: 0 -525px;}
+  100% {background-position: 0 -80px;}
+}
+
+.cmxbannerimg02{
+  width:200px;height:200px;
+  background:url(http://le195525.oss-cn-shanghai.aliyuncs.com/Diyou/casecmx.png) no-repeat;
+  background-position: 0 0;background-size:855px auto;
+}
+/*丛达*/
+.congdaimg{
+    background:url(http://le195525.oss-cn-shanghai.aliyuncs.com/Diyou/congda.png) no-repeat;
+    width:100%;margin:0 auto;height:500px;background-position: 0 0;
+}
+@media screen and (max-width: 767px) {
+  .caseTop p{ width:90%;}
+}
